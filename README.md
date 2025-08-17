@@ -1,2 +1,2 @@
-# practice-welcome
-Sandbox repo to help with learning git
+# welcome-pages
+Sandbox repo to help learning Git / HTML / CSS
