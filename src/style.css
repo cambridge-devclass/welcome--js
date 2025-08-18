@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  --header-height: 2rem;
+}
+
+.content {
+  max-width: 64rem;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+.header__text {
+  font-size: var(--header-height);
+  line-height: var(--header-height);
+  font-weight: 600;
+}
+.header__link {
+  position: fixed;
+  right: 2.5rem;
+  top: 1rem;
+  height: var(--header-height);
+  display:flex; 
+  align-items:center; 
+  justify-content:center;
+  color: rgba(41, 102, 222, 1);
+  cursor: pointer;
+}
+.header__name {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+.header__icon {
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+/* pinterest-like layout */
+.cards {
+  column-count: 4;
+  column-gap: 1rem;
+}
+/* Set .content width to 18-33-48-63rem, based on screen width */
+@media (max-width: 33rem) {
+  .cards { column-count: 1; }
+  .content { max-width: 18rem; }
+}
+@media (min-width: 33rem) and (max-width: 48rem) {
+  .cards { column-count: 2; }
+  .content { max-width: 33rem; }
+}
+@media (min-width: 48rem) and (max-width: 63rem) {
+  .cards { column-count: 3; }
+  .content { max-width: 48rem; }
+}
+@media (min-width: 63rem) {
+  .cards { column-count: 4; }
+  .content { max-width: 64rem; }
+}
+
+.card {
+  width: 14rem;
+  min-height: 9rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 1rem;
+  position: relative;
+  display: inline-block;
+}
+/* Using BEM for naming: https://www.geeksforgeeks.org/css/understanding-the-css-bem-convention */
+.card__img {
+  width: 100%;
+  height: 100%;
+  min-height:100%;
+  border-radius: 1rem;
+}
+.card__text {
+  padding: 1.7rem 1.2rem;
+  position: absolute;
+  top: 0;
+}
+.card__text--white {
+  color: white;
+}
+.card__message {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}

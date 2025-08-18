@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to DevClass</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+    <div class="header">
+      <div class="header__text">
+        Say hi!
+      </div>
+      <div class="header__link" onclick="openGithub()">
+        <span class="header__name">Cambridge_DevClass</span>
+        <i class="fa-brands fa-github header__icon"></i>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card" onclick="openPage('pages/001_maria.html')">
+        <img class="card__img" src="https://i.imgur.com/E9spTvP.jpeg" alt="DST image" />
+        <div class="card__text card__text--white">
+          <div class="card__message">Hi there</div>
+          <div class="card__name">Maria</div>
+        </div>
+      </div>
+      
+      <div class="card" onclick="openPage('pages/002_example.html')">
+        <div class="card__text">
+          <div class="card__message">Card example</div>
+          <div class="card__name">Your name</div>
+        </div>
+      </div>
+
+      <!-- 
+        Add your card below, similar to other cards.
+        It can be a picture or just text. 
+        The card can open a page.
+      -->
+    </div>
+  </div>
+</body>
+</html>

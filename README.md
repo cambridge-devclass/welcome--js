@@ -1,4 +1,7 @@
-# welcome-pages
-Sandbox repo to help learning Git / HTML / CSS
+# welcome--js
+Sandbox repo to help start with Git / HTML / CSS.
 
-View online: https://cambridge-devclass.github.io/welcome-pages__js
+Add a card with your name and a some message, in src/index.html. 
+You can also add a page in src/pages - see the example.
+
+View online: https://cambridge-devclass.github.io/welcome--js
