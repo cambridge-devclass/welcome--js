@@ -75,6 +75,7 @@ body {
   border-radius: 1rem;
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 /* Using BEM for naming: https://www.geeksforgeeks.org/css/understanding-the-css-bem-convention */
 .card__img {
