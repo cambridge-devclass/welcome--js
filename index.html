@@ -1,91 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <meta
-    name="description"
-    content="welcome--js by CambridgeDevClass"
-  />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <meta name="description" content="welcome--js by CambridgeDevClass" />
 
-  <title>Say hi | CambridgeDevClass</title>
+        <title>Say hi | CambridgeDevClass</title>
 
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- Icons -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-</head>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<body>
-  <div class="content">
-    <div class="header">
-      <div class="header__text">
-        Say hi!
-      </div>
-      <div class="header__link" onclick="openGithub()">
-        <span class="header__name">Cambridge_DevClass</span>
-        <i class="fa-brands fa-github header__icon"></i>
-      </div>
-    </div>
+    <body>
+        <div class="content">
+            <div class="header">
+                <div class="header__text">Say hi!</div>
+                <div class="header__link" onclick="openGithub()">
+                    <span class="header__name">Cambridge_DevClass</span>
+                    <i class="fa-brands fa-github header__icon"></i>
+                </div>
+            </div>
 
-    <div class="cards">
-      <div class="card" onclick="openPage('pages/001_maria.html')">
-        <img class="card__img" src="https://i.imgur.com/E9spTvP.jpeg" alt="DST image" />
-        <div class="card__text card__text--white">
-          <div class="card__message">Hi there</div>
-          <div class="card__name">Maria</div>
-        </div>
-      </div>
-      
-      <div class="card" onclick="openPage('pages/002_example.html')">
-        <div class="card__text">
-          <div class="card__message">Card example</div>
-          <div class="card__name">Your name</div>
-        </div>
-      </div>
+            <div class="cards">
+                <div class="card" onclick="openPage('pages/001_maria.html')">
+                    <img
+                        class="card__img"
+                        src="https://i.imgur.com/E9spTvP.jpeg"
+                        alt="DST image"
+                    />
+                    <div class="card__text card__text--white">
+                        <div class="card__message">Hi there</div>
+                        <div class="card__name">Maria</div>
+                    </div>
+                </div>
 
-      <div class="card" onclick="openPage('pages/002_example.html')">
-        <div class="card__text">
-          <div class="card__message">Hello!</div>
-          <div class="card__name">Alexia Penney</div>
-        </div>
-      </div>
+                <div class="card" onclick="openPage('pages/002_example.html')">
+                    <div class="card__text">
+                        <div class="card__message">Card example</div>
+                        <div class="card__name">Your name</div>
+                    </div>
+                </div>
 
+                <div class="card" onclick="openPage('pages/002_example.html')">
+                    <div class="card__text">
+                        <div class="card__message">Hello!</div>
+                        <div class="card__name">Alexia Penney</div>
+                    </div>
+                </div>
 
-      <div class="card" onclick="openPage('pages/003_dina.html')">
-        <img class="card__img" src="https://pethelpful.com/.image/w_1920,q_auto:good,c_limit/NDowMDAwMDAwMDAwMTA5OTM4/a-corgi-puppy-running.jpg" alt="corgi image"/>
-        <div class="card__text">
-          <div class="card__message">Hello!</div>
-          <div class="card__name">Dina</div>
-        </div>
-      </div>
-      <div class="card" onclick="openPage('pages/004_luke.html')">
-        <img class="card__img" src="https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/16:9/w_1280,c_limit/Monkey-Selfie.jpg" alt="corgi image"/>
-        <div class="card__text">
-          <div class="card__message">Hello!</div>
-          <div class="card__name">Luke</div>
-        </div>
-      </div>
+                <div class="card" onclick="openPage('pages/003_dina.html')">
+                    <img
+                        class="card__img"
+                        src="https://pethelpful.com/.image/w_1920,q_auto:good,c_limit/NDowMDAwMDAwMDAwMTA5OTM4/a-corgi-puppy-running.jpg"
+                        alt="corgi image"
+                    />
+                    <div class="card__text">
+                        <div class="card__message">Hello!</div>
+                        <div class="card__name">Dina</div>
+                    </div>
+                </div>
+                <div class="card" onclick="openPage('pages/004_luke.html')">
+                    <img
+                        class="card__img"
+                        src="https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/16:9/w_1280,c_limit/Monkey-Selfie.jpg"
+                        alt="corgi image"
+                    />
+                    <div class="card__text">
+                        <div class="card__message">Hello!</div>
+                        <div class="card__name">Luke</div>
+                    </div>
+                </div>
 
-       <div class="card" onclick="openPage('pages/005_aaron.html')">
-        <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyYYqt10CcQGcNzCDJwTFB37s6rloLlIBdFw&s">
-        <div class="card__text card__text--white">
-          <div class="card__message">Hi There</div>
-          <div class="card__name">Aaron Weddle</div>
-        </div>
-      </div>
+                <div class="card" onclick="openPage('pages/005_aaron.html')">
+                    <img
+                        class="card__img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyYYqt10CcQGcNzCDJwTFB37s6rloLlIBdFw&s"
+                    />
+                    <div class="card__text card__text--white">
+                        <div class="card__message">Hi There</div>
+                        <div class="card__name">Aaron Weddle</div>
+                    </div>
+                </div>
+                <div class="card" onclick="openPage('pages/006_rafael.html')">
+                    <img
+                        class="card__img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9K0STiW2L56xqIjzzFDB9fsUgvCHLygZjKw&s"
+                    />
+                    <div class="card__text card__text--white">
+                        <div class="card__message">
+                            Don't click my card or else.
+                        </div>
+                        <div class="card__name">Rafael</div>
+                    </div>
+                </div>
 
-      <!-- 
+                <!--
         Add your card below, similar to other cards.
-        It can be a picture or just text. 
+        It can be a picture or just text.
         The card can open a page.
       -->
-    </div>
-  </div>
-</body>
+            </div>
+        </div>
+    </body>
 </html>
