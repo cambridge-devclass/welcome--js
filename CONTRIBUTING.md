@@ -14,13 +14,10 @@ See README.md for the details about the app.
 ### Contribution workflow
 
 * Make sure you're a member of https://github.com/cambridge-devclass
-* Clone this repository to your local machine.
+* Clone this repository to your local machine - see the steps in https://cambridge-dev.com/program/212
 * Run the app locally: <br>
 Double-click index.html file on your computer, it will open the web page in browser.
-* Create a new branch from "main". Checkout to your branch.
-* Make your changes, commit.
-* Rebase your branch against the "main". Resolve conflicts if any. Push changes to your remote branch.
-* Create a pull request on GitHub to merge changes from your branch to master.
+* In this project, you'll need to add a card with your name, message, and any image. You can do it by copying and modifying the example card in index.html.
 
 (We’ll cover the details during class.)
 
